@@ -13,7 +13,7 @@
     "workingExperience": [
         {
             "companyTitle": "PT. IDStar Cipta Teknologi",
-            "companyLogo": "../../public/experience/pt_idstar_cipta_teknologi_logo.jpg",
+            "companyLogo": "public/experience/pt_idstar_cipta_teknologi_logo.jpg",
             "workStartDate": "2024-10-01",
             "workEndDate": "PRESENT",
             "workPositions": [
