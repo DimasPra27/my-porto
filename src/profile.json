@@ -8,12 +8,12 @@
         "twitterUrl": "",
         "githubUrl": "https://github.com/DimasPra27",
         "linkedinUrl": "https://www.linkedin.com/in/dimaspra27/",
-        "cvUrl": "/public/Resume_Dimas_prasetyo.pdf"
+        "cvUrl": "/Resume_Dimas_prasetyo.pdf"
     },
     "workingExperience": [
         {
             "companyTitle": "PT. IDStar Cipta Teknologi",
-            "companyLogo": "/public/experience/pt_idstar_cipta_teknologi_logo.jpg",
+            "companyLogo": "/experience/pt_idstar_cipta_teknologi_logo.jpg",
             "workStartDate": "2024-10-01",
             "workEndDate": "PRESENT",
             "workPositions": [
@@ -27,7 +27,7 @@
         },
         {
             "companyTitle": "PT. Inovasi Anak Indonesia (PARKEE)",
-            "companyLogo": "/public/experience/parkeeapp_logo.jpg",
+            "companyLogo": "/experience/parkeeapp_logo.jpg",
             "workStartDate": "2022-04-01",
             "workEndDate": "2024-10-01",
             "workPositions": [
@@ -41,7 +41,7 @@
         },
         {
             "companyTitle": "IT Division",
-            "companyLogo": "/public/experience/it_binus_logo.jpg",
+            "companyLogo": "/experience/it_binus_logo.jpg",
             "workStartDate": "2019-03-01",
             "workEndDate": "2022-02-30",
             "workPositions": [
@@ -69,7 +69,7 @@
     "projects": [
         {
             "name": "Mata Hati Transport",
-            "logo": "/public/projects/logoMataHati.png",
+            "logo": "/projects/logoMataHati.png",
             "description": "Rent Transportaion Application"
         }
     ],
