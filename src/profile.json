@@ -1,0 +1,98 @@
+{
+    "fullName": "Dimas Prasetyo",
+    "firstName": "Dimas",
+    "lastName": "Prasetyo",
+    "role": "Software Engineer",
+    "description": "Hello, My name is Dimas",
+    "socialmedia": {
+        "twitterUrl": "",
+        "githubUrl": "https://github.com/DimasPra27",
+        "linkedinUrl": "https://www.linkedin.com/in/dimaspra27/",
+        "cvUrl" : "../public/Resume_Dimas_prasetyo.pdf"
+    },
+    "workingExperience": [
+        {
+            "companyTitle": "PT. IDStar Cipta Teknologi",
+            "companyLogo": "../public/experience/pt_idstar_cipta_teknologi_logo.jpg",
+            "workStartDate": "2024-10-01",
+            "workEndDate": "PRESENT",
+            "workPositions": [
+                {
+                    "position": "Java Software Engineer - Backend",
+                    "positionStartDate": "2024-10-01",
+                    "positionEndDate": "PRESENT",
+                    "description": "Do handle backend service"
+                }
+            ]
+        },
+        {
+            "companyTitle": "PT. Inovasi Anak Indonesia (PARKEE)",
+            "companyLogo": "../public/experience/parkeeapp_logo.jpg",
+            "workStartDate": "2022-04-01",
+            "workEndDate": "2024-10-01",
+            "workPositions": [
+                {
+                    "position": "Software Engineer - Backend",
+                    "positionStartDate": "2022-04-01",
+                    "positionEndDate": "2024-10-01",
+                    "description": "Responsible for maintaining a microservice backend system, handling production issues by checking sentries and Developing a Parkee application to make it easier for users, create memberships for tenants or users, pay bills, etc. Here I made an application where the parkee application can be used directly for a user (B2C) or for a tenant (B2B) to make the parkee app can help users to overcome problems finding a parking space, or problems with the parking system.<br /> <br /> - Collaborate with field personnel to integrate a support system accessible through the Parkee app.<br /> - Develop features to enable the Parkee app to support bill payments for electricity, mobile top-ups, data packages, and water bills by integrating with new third-party systems.<br /> - Continuously improve existing features to align with user needs, incorporating insights from field experiences.<br /> - Integrate new systems from third-party providers, such as banks and payment gateways, with the internal systems to enhance functionality.<br /> - Assist the internal finance team by providing necessary data for financial reporting and support the marketing team by supplying data for analysis.<br /> <br /> Tech Stack: Java Spring Boot, PostgreSQL<br />"
+                }
+            ]
+        },
+        {
+            "companyTitle": "IT Division",
+            "companyLogo": "../public/experience/it_binus_logo.jpg",
+            "workStartDate": "2019-03-01",
+            "workEndDate": "2022-02-30",
+            "workPositions": [
+                {
+                    "position": "Programmer",
+                    "positionStartDate": "2021-10-01",
+                    "positionEndDate": "2022-02-30",
+                    "description": "- Full Stack Developer, develop and maintain web API using .NET Core.<br /> - Develop Form Permohonan ijazah using CI/CD and MVC architecture.<br /> - Develop Form Pembicara External using .NET Core and Linq Entity Framework for API and .Net Freamework for frontend application.<br />"
+                },
+                {
+                    "position": "Junior Programmer",
+                    "positionStartDate": "2020-03-01",
+                    "positionEndDate": "2021-09-31",
+                    "description": "- Develop and maintain binusmaya using PHP, codeigniter framework.<br /> - Develop new feature for S3 Scoring for binusmaya Application.<br /> - Develop embedded system for Binus Online.<br /> - Full Stack Developer, develop and maintain binusmaya application.<br /> <br /> Tech Stack : PHP, codeigniter framework, ajax and jquery.<br />"
+                },
+                {
+                    "position": "Associate Member",
+                    "positionStartDate": "2019-03-01",
+                    "positionEndDate": "2020-02-30",
+                    "description": "Full Stack Developer<br /> - Develop and Maintain Web API using .NET Framework 4.6<br /> - Develop and Maintain Competency Test Website using .NET Framework<br /> - Develop new feature using .NET Framework, MongoDB<br /> - Develop simple authentication & SSO using .NET Core<br />"
+                }
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Mata Hati Transport",
+            "logo": "../public/projects/logoMataHati.png",
+            "description": "Rent Transportaion Application"
+        }
+    ],
+    "skills": {
+        "backend": [
+            "PHP Codeigniter",
+            "Java Spring Boot",
+            "ASP.NET MVC"
+        ],
+        "frontend": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "React",
+            "Bootstrap"
+        ],
+        "database": [
+            "PostgreSQL",
+            "SQL Server",
+            "My SQL"
+        ],
+        "tools" : [
+            "Git"
+        ]
+    }
+}
