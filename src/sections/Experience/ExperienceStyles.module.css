@@ -4,7 +4,6 @@
   text-align: center;
 
   img {
-    max-width: 250px;
     align-self: center;
     background-color: var(--project-card-bg);
     border-radius: 20px;
@@ -52,7 +51,7 @@
 }
 
 .experienceField {
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
 }
 
 .period {
@@ -63,4 +62,40 @@
 
 .experienceContainer.description {
   text-align: end;
+}
+
+@media (width <= 500px) {
+  .header {
+    text-align: left;
+  }
+
+  img {
+    width: 10px;
+  }
+
+  .period,
+  .experienceField {
+    font-size: 10px;
+  }
+
+  h2,
+  h3 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .experienceContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 30px;
+  }
+
+  img {
+    max-width: 50px;
+    width: 100px;
+    /* border-radius: 20px; */
+  }
 }
