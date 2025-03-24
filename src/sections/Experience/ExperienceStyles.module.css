@@ -64,7 +64,7 @@
   text-align: end;
 }
 
-@media (width <= 500px) {
+@media (width <= 800px) {
   .header {
     text-align: left;
   }

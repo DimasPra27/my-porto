@@ -17,10 +17,12 @@
 .skillList {
   display: flex;
   justify-content: space-evenly;
+  /* max-width: fit-content; */
   align-self: center;
   flex-wrap: wrap;
-  row-gap: 40px;
-  max-width: 26ch;
+  /* row-gap: 40px; */
+  gap: 10px;
+  /* max-width: 26ch; */
 }
 
 hr {
