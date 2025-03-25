@@ -92,7 +92,8 @@
             "My SQL"
         ],
         "tools": [
-            "Git"
+            "Git",
+            "Redis"
         ]
     }
 }
