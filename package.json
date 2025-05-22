@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "add-domain": "echo \"dimasprasetyo.com\" > dist/CNAME",
+    "add-domain": "echo dimasprasetyo.com > dist/CNAME",
     "predeploy": "npm run build",
     "deploy": "npm run add-domain && gh-pages -d dist"
   },
