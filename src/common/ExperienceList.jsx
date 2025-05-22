@@ -61,8 +61,10 @@ function convert(start, end) {
   const startFormattedDate = startDate.toLocaleString("en-US", format);
 
   const endFormattedDate = "Present";
+  const endDate = new Date();
+
   if (end !== "PRESENT") {
-    const endDate = new Date(end);
+    endDate = new Date(end);
     endFormattedDate = endDate.toLocaleString("en-US", format);
   }
   return (
