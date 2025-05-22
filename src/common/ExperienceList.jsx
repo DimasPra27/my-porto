@@ -60,13 +60,14 @@ function convert(start, end) {
   const startDate = new Date(start);
   const startFormattedDate = startDate.toLocaleString("en-US", format);
 
-  const endFormattedDate = "Present";
-  const endDate = new Date();
+  let endFormattedDate = "Present";
+  let endDate = new Date();
 
   if (end !== "PRESENT") {
     endDate = new Date(end);
     endFormattedDate = endDate.toLocaleString("en-US", format);
   }
+
   return (
     startFormattedDate +
     " - " +
