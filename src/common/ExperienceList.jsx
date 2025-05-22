@@ -60,8 +60,9 @@ function convert(start, end) {
   const startDate = new Date(start);
   const startFormattedDate = startDate.toLocaleString("en-US", format);
 
+  const today = new Date();
   let endFormattedDate = "Present";
-  let endDate = new Date();
+  let endDate = new Date(today.getFullYear(), today.getMonth() + 1, 0);
 
   if (end !== "PRESENT") {
     endDate = new Date(end);
