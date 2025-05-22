@@ -26,16 +26,16 @@
             ]
         },
         {
-            "companyTitle": "PT. Inovasi Anak Indonesia (PARKEE)",
-            "companyLogo": "/experience/parkeeapp_logo.jpg",
-            "workStartDate": "2022-04-01",
-            "workEndDate": "2024-10-01",
+            "companyTitle": "OneAM",
+            "companyLogo": "/experience/oneam_ai_logo.jpg",
+            "workStartDate": "2024-10-01",
+            "workEndDate": "2025-01-01",
             "workPositions": [
                 {
                     "position": "Software Engineer - Backend",
-                    "positionStartDate": "2022-04-01",
-                    "positionEndDate": "2024-10-01",
-                    "description": "Responsible for maintaining a microservice backend system, handling production issues by checking sentries and Developing a Parkee application to make it easier for users, create memberships for tenants or users, pay bills, etc. Here I made an application where the parkee application can be used directly for a user (B2C) or for a tenant (B2B) to make the parkee app can help users to overcome problems finding a parking space, or problems with the parking system.<br /> <br /> - Collaborate with field personnel to integrate a support system accessible through the Parkee app.<br /> - Develop features to enable the Parkee app to support bill payments for electricity, mobile top-ups, data packages, and water bills by integrating with new third-party systems.<br /> - Continuously improve existing features to align with user needs, incorporating insights from field experiences.<br /> - Integrate new systems from third-party providers, such as banks and payment gateways, with the internal systems to enhance functionality.<br /> - Assist the internal finance team by providing necessary data for financial reporting and support the marketing team by supplying data for analysis.<br /> <br /> Tech Stack: Java Spring Boot, PostgreSQL<br />"
+                    "positionStartDate": "2024-10-01",
+                    "positionEndDate": "2025-01-01",
+                    "description": "Maintained and enhanced backend microservices using Java Spring Boot, focusing on API improvement and system performance optimization.<br /> Developed invoicing solutions for B2B financial processes, enabling offer transactions between companies and funding providers.<br /> Set up dynamic pricing configurations through service gateways to support real-time pricing across integrated systems."
                 }
             ]
         },
