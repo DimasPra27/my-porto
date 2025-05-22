@@ -8,12 +8,12 @@
         "twitterUrl": "",
         "githubUrl": "https://github.com/DimasPra27",
         "linkedinUrl": "https://www.linkedin.com/in/dimaspra27/",
-        "cvUrl": "/Resume_Dimas_prasetyo.pdf"
+        "cvUrl": "https://DimasPra27.github.io/my-porto/Resume_Dimas_prasetyo.pdf"
     },
     "workingExperience": [
         {
             "companyTitle": "PT. IDStar Cipta Teknologi",
-            "companyLogo": "/experience/pt_idstar_cipta_teknologi_logo.jpg",
+            "companyLogo": "https://DimasPra27.github.io/my-porto/experience/pt_idstar_cipta_teknologi_logo.jpg",
             "workStartDate": "2024-10-01",
             "workEndDate": "PRESENT",
             "workPositions": [
@@ -21,13 +21,27 @@
                     "position": "Java Software Engineer - Backend",
                     "positionStartDate": "2024-10-01",
                     "positionEndDate": "PRESENT",
-                    "description": "Do handle backend service"
+                    "description": "Results-driven Software Engineer with hands-on experience in designing and developing backend microservices tailored to client requirements. Adept at building scalable, maintainable, and high-performance systems using modern technologies and best practices. <br /> <br /> - Designed and developed backend microservices using Java Spring Boot, tailored to client-specific requirements, ensuring scalability, reliability, and maintainability. <br /> - Integrated PostgreSQL for relational data management and Redis for high-speed caching and session storage. <br /> - Implemented asynchronous communication between services using Apache Kafka, enabling real-time event-driven architecture. <br /> - Collaborated with cross-functional teams and stakeholders to translate business requirements into technical specifications and backend solutions. <br /> - Maintained code quality and version control using GitLab, with CI/CD pipelines to automate testing and deployment processes."
+                }
+            ]
+        },
+        {
+            "companyTitle": "PT. IT Group Indonesia (ITG)",
+            "companyLogo": "https://DimasPra27.github.io/my-porto/experience/it_group_inc__logo.jpg",
+            "workStartDate": "2024-01-01",
+            "workEndDate": "PRESENT",
+            "workPositions": [
+                {
+                    "position": "Software Engineer - Backend",
+                    "positionStartDate": "2024-10-01",
+                    "positionEndDate": "PRESENT",
+                    "description": "- Built a core backend system from scratch using Java Spring Boot for a web-based application focused on server provisioning.<br /> - Designed and implemented security architecture using Spring Security and JWT tokens to protect REST APIs from unauthorized access.<br /> - Integrated with third-party services for provisioning, server usage monitoring, and implemented pricing calculation using OpenCost.<br /> - Designed efficient and normalized database schemas to eliminate redundancy and planned the overall system architecture.<br /> - Refactored codebase for improved readability, maintainability, and performance efficiency."
                 }
             ]
         },
         {
             "companyTitle": "OneAM",
-            "companyLogo": "/experience/oneam_ai_logo.jpg",
+            "companyLogo": "https://DimasPra27.github.io/my-porto/experience/oneam_ai_logo.jpg",
             "workStartDate": "2024-10-01",
             "workEndDate": "2025-01-01",
             "workPositions": [
@@ -35,13 +49,13 @@
                     "position": "Software Engineer - Backend",
                     "positionStartDate": "2024-10-01",
                     "positionEndDate": "2025-01-01",
-                    "description": "Maintained and enhanced backend microservices using Java Spring Boot, focusing on API improvement and system performance optimization.<br /> Developed invoicing solutions for B2B financial processes, enabling offer transactions between companies and funding providers.<br /> Set up dynamic pricing configurations through service gateways to support real-time pricing across integrated systems."
+                    "description": "- Maintained and enhanced backend microservices using Java Spring Boot, focusing on API improvement and system performance optimization.<br /> - Developed invoicing solutions for B2B financial processes, enabling offer transactions between companies and funding providers. <br /> - Set up dynamic pricing configurations through service gateways to support real-time pricing across integrated systems."
                 }
             ]
         },
         {
             "companyTitle": "IT Division",
-            "companyLogo": "/experience/it_binus_logo.jpg",
+            "companyLogo": "https://DimasPra27.github.io/my-porto/experience/it_binus_logo.jpg",
             "workStartDate": "2019-03-01",
             "workEndDate": "2022-02-30",
             "workPositions": [
@@ -69,7 +83,7 @@
     "projects": [
         {
             "name": "Mata Hati Transport",
-            "logo": "/projects/logoMataHati.png",
+            "logo": "https://DimasPra27.github.io/my-porto/projects/logoMataHati.png",
             "description": "Rent Transportaion Application"
         }
     ],
