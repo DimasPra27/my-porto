@@ -64,6 +64,8 @@ function convert(start, end) {
   let endFormattedDate = "Present";
   let endDate = new Date(today.getFullYear(), today.getMonth() + 1, 0);
 
+  console.log(endDate);
+
   if (end !== "PRESENT") {
     endDate = new Date(end);
     endFormattedDate = endDate.toLocaleString("en-US", format);
@@ -109,7 +111,7 @@ function getPriod(startDate, endDate) {
   };
 
   let year = 0;
-  let month = DateDiff.inMonths(startDate, endDate);
+  let month = DateDiff.inMonths(startDate, endDate) + 1;
   while (month >= 12) {
     month -= 12;
     year++;

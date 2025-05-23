@@ -14,12 +14,12 @@
         {
             "companyTitle": "PT. IDStar Cipta Teknologi",
             "companyLogo": "https://DimasPra27.github.io/my-porto/experience/pt_idstar_cipta_teknologi_logo.jpg",
-            "workStartDate": "2024-10-01",
+            "workStartDate": "2024-10",
             "workEndDate": "PRESENT",
             "workPositions": [
                 {
                     "position": "Java Software Engineer - Backend",
-                    "positionStartDate": "2024-10-01",
+                    "positionStartDate": "2024-10",
                     "positionEndDate": "PRESENT",
                     "description": "Results-driven Software Engineer with hands-on experience in designing and developing backend microservices tailored to client requirements. Adept at building scalable, maintainable, and high-performance systems using modern technologies and best practices. <br /> <br /> - Designed and developed backend microservices using Java Spring Boot, tailored to client-specific requirements, ensuring scalability, reliability, and maintainability. <br /> - Integrated PostgreSQL for relational data management and Redis for high-speed caching and session storage. <br /> - Implemented asynchronous communication between services using Apache Kafka, enabling real-time event-driven architecture. <br /> - Collaborated with cross-functional teams and stakeholders to translate business requirements into technical specifications and backend solutions. <br /> - Maintained code quality and version control using GitLab, with CI/CD pipelines to automate testing and deployment processes."
                 }
@@ -28,12 +28,12 @@
         {
             "companyTitle": "PT. IT Group Indonesia (ITG)",
             "companyLogo": "https://DimasPra27.github.io/my-porto/experience/it_group_inc__logo.jpg",
-            "workStartDate": "2025-01-01",
+            "workStartDate": "2025-01",
             "workEndDate": "PRESENT",
             "workPositions": [
                 {
                     "position": "Software Engineer - Backend",
-                    "positionStartDate": "2025-01-01",
+                    "positionStartDate": "2025-01",
                     "positionEndDate": "PRESENT",
                     "description": "- Built a core backend system from scratch using Java Spring Boot for a web-based application focused on server provisioning.<br /> - Designed and implemented security architecture using Spring Security and JWT tokens to protect REST APIs from unauthorized access.<br /> - Integrated with third-party services for provisioning, server usage monitoring, and implemented pricing calculation using OpenCost.<br /> - Designed efficient and normalized database schemas to eliminate redundancy and planned the overall system architecture.<br /> - Refactored codebase for improved readability, maintainability, and performance efficiency."
                 }
@@ -42,13 +42,13 @@
         {
             "companyTitle": "OneAM",
             "companyLogo": "https://DimasPra27.github.io/my-porto/experience/oneam_ai_logo.jpg",
-            "workStartDate": "2024-10-01",
-            "workEndDate": "2025-01-01",
+            "workStartDate": "2024-10",
+            "workEndDate": "2024-12",
             "workPositions": [
                 {
                     "position": "Software Engineer - Backend",
-                    "positionStartDate": "2024-10-01",
-                    "positionEndDate": "2025-01-01",
+                    "positionStartDate": "2024-10",
+                    "positionEndDate": "2024-12",
                     "description": "- Maintained and enhanced backend microservices using Java Spring Boot, focusing on API improvement and system performance optimization.<br /> - Developed invoicing solutions for B2B financial processes, enabling offer transactions between companies and funding providers. <br /> - Set up dynamic pricing configurations through service gateways to support real-time pricing across integrated systems."
                 }
             ]
@@ -56,13 +56,13 @@
         {
             "companyTitle": "PT. Inovasi Anak Indonesia (PARKEE)",
             "companyLogo": "https://DimasPra27.github.io/my-porto/experience/parkeeapp_logo.jpg",
-            "workStartDate": "2022-04-01",
-            "workEndDate": "2024-10-01",
+            "workStartDate": "2022-04",
+            "workEndDate": "2024-09",
             "workPositions": [
                 {
                     "position": "Software Engineer - Backend",
-                    "positionStartDate": "2022-04-01",
-                    "positionEndDate": "2024-10-01",
+                    "positionStartDate": "2022-04",
+                    "positionEndDate": "2024-09",
                     "description": "Responsible for maintaining a microservice backend system, handling production issues by checking sentries and Developing a Parkee application to make it easier for users, create memberships for tenants or users, pay bills, etc. Here I made an application where the parkee application can be used directly for a user (B2C) or for a tenant (B2B) to make the parkee app can help users to overcome problems finding a parking space, or problems with the parking system.<br /> <br /> - Collaborate with field personnel to integrate a support system accessible through the Parkee app.<br /> - Develop features to enable the Parkee app to support bill payments for electricity, mobile top-ups, data packages, and water bills by integrating with new third-party systems.<br /> - Continuously improve existing features to align with user needs, incorporating insights from field experiences.<br /> - Integrate new systems from third-party providers, such as banks and payment gateways, with the internal systems to enhance functionality.<br /> - Assist the internal finance team by providing necessary data for financial reporting and support the marketing team by supplying data for analysis.<br /> <br /> Tech Stack: Java Spring Boot, PostgreSQL<br />"
                 }
             ]
@@ -70,25 +70,25 @@
         {
             "companyTitle": "IT Division",
             "companyLogo": "https://DimasPra27.github.io/my-porto/experience/it_binus_logo.jpg",
-            "workStartDate": "2019-03-01",
-            "workEndDate": "2022-02-30",
+            "workStartDate": "2019-03",
+            "workEndDate": "2022-02",
             "workPositions": [
                 {
                     "position": "Programmer",
-                    "positionStartDate": "2021-10-01",
-                    "positionEndDate": "2022-02-30",
+                    "positionStartDate": "2021-10",
+                    "positionEndDate": "2022-02",
                     "description": "- Full Stack Developer, develop and maintain web API using .NET Core.<br /> - Develop Form Permohonan ijazah using CI/CD and MVC architecture.<br /> - Develop Form Pembicara External using .NET Core and Linq Entity Framework for API and .Net Freamework for frontend application.<br />"
                 },
                 {
                     "position": "Junior Programmer",
-                    "positionStartDate": "2020-03-01",
-                    "positionEndDate": "2021-09-31",
+                    "positionStartDate": "2020-03",
+                    "positionEndDate": "2021-09",
                     "description": "- Develop and maintain binusmaya using PHP, codeigniter framework.<br /> - Develop new feature for S3 Scoring for binusmaya Application.<br /> - Develop embedded system for Binus Online.<br /> - Full Stack Developer, develop and maintain binusmaya application.<br /> <br /> Tech Stack : PHP, codeigniter framework, ajax and jquery.<br />"
                 },
                 {
                     "position": "Associate Member",
-                    "positionStartDate": "2019-03-01",
-                    "positionEndDate": "2020-02-30",
+                    "positionStartDate": "2019-03",
+                    "positionEndDate": "2020-02",
                     "description": "Full Stack Developer<br /> - Develop and Maintain Web API using .NET Framework 4.6<br /> - Develop and Maintain Competency Test Website using .NET Framework<br /> - Develop new feature using .NET Framework, MongoDB<br /> - Develop simple authentication & SSO using .NET Core<br />"
                 }
             ]
