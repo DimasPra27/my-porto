@@ -91,7 +91,7 @@
     .hero {
       max-width: 350px;
       width: 350px;
-      border-radius: 300px;
+      border-radius: 150px;
     }
   }
 }
@@ -101,7 +101,7 @@
     .hero {
       max-width: 400px;
       width: 400px;
-      border-radius: 300px;
+      border-radius: 150px;
     }
   }
 }

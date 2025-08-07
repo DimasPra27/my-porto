@@ -58,7 +58,8 @@ h3 {
 }
 
 h1 {
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
+  font-family: "Roboto Mono", monospace;
 }
 
 p {
