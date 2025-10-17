@@ -1,14 +1,15 @@
 import styles from "./SkillsStyles.module.css";
+import { forwardRef } from "react";
 import checkMarkIcon from "../../assets/checkmark-dark.svg";
 import SkillList from "../../common/SkillList";
 
 import { useProfile } from "../../common/ProfileContext";
 
-function Skills() {
+const Skills = forwardRef((props, ref) => {
   const profile = useProfile();
 
   return (
-    <section id="skills" className={styles.container}>
+    <section id="skills" ref={ref} className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
 
       {(() => {
@@ -26,6 +27,6 @@ function Skills() {
       })()}
     </section>
   );
-}
+});
 
 export default Skills;

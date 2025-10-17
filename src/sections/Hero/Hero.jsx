@@ -1,3 +1,5 @@
+import { forwardRef, useRef } from "react";
+
 import styles from "./HeroStyles.module.css";
 import heroImg from "../../assets/Profile/my-personal-photo.jpeg";
 import sun from "../../assets/sun.svg";
@@ -13,7 +15,7 @@ import cv from "../../assets/cv.pdf";
 import { useTheme } from "../../common/ThemeContext";
 import { useProfile } from "../../common/ProfileContext";
 
-function Hero() {
+const Hero = forwardRef((props, ref) => {
   const { theme, toggleTheme } = useTheme();
   const profile = useProfile();
 
@@ -27,7 +29,7 @@ function Hero() {
   return (
     // let data = require("../../../profile.json");
 
-    <section id="hero" className={styles.container}>
+    <section id="hero" ref={ref} className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
           className={styles.hero}
@@ -68,6 +70,8 @@ function Hero() {
       </div>
     </section>
   );
-}
+});
+
+// function Hero() {}
 
 export default Hero;

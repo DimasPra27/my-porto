@@ -64,7 +64,7 @@ function convert(start, end) {
   let endFormattedDate = "Present";
   let endDate = new Date(today.getFullYear(), today.getMonth() + 1, 0);
 
-  console.log(endDate);
+  // console.log(endDate);
 
   if (end !== "PRESENT") {
     endDate = new Date(end);

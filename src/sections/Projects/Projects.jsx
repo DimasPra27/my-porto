@@ -1,4 +1,6 @@
 import styles from "./ProjectsStyles.module.css";
+import { forwardRef } from "react";
+
 import viberr from "./../../assets/viberr.png";
 import freshBurger from "./../../assets/fresh-burger.png";
 import hipsster from "./../../assets/hipsster.png";
@@ -7,11 +9,11 @@ import ProjectCard from "../../common/ProjectCard";
 
 import { useProfile } from "../../common/ProfileContext";
 
-function Projects() {
+const Projects = forwardRef((props, ref) => {
   const profile = useProfile();
 
   return (
-    <section id="projects" className={styles.container}>
+    <section id="projects" ref={ref} className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         {(() => {
@@ -31,6 +33,6 @@ function Projects() {
       </div>
     </section>
   );
-}
+});
 
 export default Projects;
