@@ -5,44 +5,45 @@ function ExperienceList({ styles, experiences }) {
 
   experiences.forEach((element) => {
     arr.push(
-      <div className={styles.experienceContainer}>
-        <div className={styles.header}>
-          <img src={element.companyLogo} alt="" />
-        </div>
-        <div>
+      <div className={styles.main}>
+        <div className={styles.experienceContainer}>
+          <div className={styles.iconGroup}>
+            <img src={element.companyLogo} alt="" />
+          </div>
+
           <div className={styles.header}>
             <h3>{element.companyTitle}</h3>
             <div className={styles.period}>
               <b>{convert(element.workStartDate, element.workEndDate)}</b>
             </div>
           </div>
-          <hr />
-          <div className={styles.header}>
-            <ul>
-              {(() => {
-                const arr = [];
-                element.workPositions.forEach((workPosition) => {
-                  arr.push(
-                    <li>
-                      <div className={styles.experienceField}>
-                        <h2>{workPosition.position}</h2>
-                        <div className={styles.period}>
-                          <b>
-                            {convert(
-                              workPosition.positionStartDate,
-                              workPosition.positionEndDate
-                            )}
-                          </b>
-                        </div>
-                        <p>{parse(workPosition.description)}</p>
+        </div>
+        <hr />
+        <div>
+          <ul>
+            {(() => {
+              const arr = [];
+              element.workPositions.forEach((workPosition) => {
+                arr.push(
+                  <li>
+                    <div className={styles.experienceField}>
+                      <h2>{workPosition.position}</h2>
+                      <div className={styles.period}>
+                        <b>
+                          {convert(
+                            workPosition.positionStartDate,
+                            workPosition.positionEndDate
+                          )}
+                        </b>
                       </div>
-                    </li>
-                  );
-                });
-                return arr;
-              })()}
-            </ul>
-          </div>
+                      <p>{parse(workPosition.description)}</p>
+                    </div>
+                  </li>
+                );
+              });
+              return arr;
+            })()}
+          </ul>
         </div>
       </div>
     );

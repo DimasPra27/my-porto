@@ -18,19 +18,21 @@
   margin: 0 40px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: all 0.3s ease;
 }
 
 .navContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 8px 20px;
 }
 
 .navList {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px; /* jarak antar menu */
+  gap: 60px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -42,9 +44,8 @@
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, font-size 0.3s ease;
   cursor: pointer;
-  /* border: 10px solid white; */
   padding: 12px 16px;
 }
 
@@ -70,4 +71,70 @@
 .iconGroup img:hover {
   opacity: 1;
   transform: scale(1.1);
+}
+
+/* ======================= */
+/* 💻 RESPONSIVE SECTION */
+/* ======================= */
+
+/* Tablet size */
+@media (max-width: 992px) {
+  .header {
+    margin: 0 20px;
+  }
+
+  .navList {
+    gap: 30px;
+  }
+
+  .navList li {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .iconGroup img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Mobile size */
+@media (max-width: 600px) {
+  .header {
+    margin: 0 10px;
+    border-radius: 0 0 8px 8px;
+  }
+
+  .navContainer {
+    flex-direction: column;
+    gap: 10px;
+    padding: 6px 0;
+  }
+
+  .navList {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .navList li {
+    font-size: 13px;
+    padding: 6px 8px;
+  }
+
+  .iconGroup {
+    gap: 15px;
+    margin: 4px 0 6px;
+  }
+
+  .iconGroup img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navList li {
+    font-size: 10px;
+    padding: 0 8px;
+  }
 }

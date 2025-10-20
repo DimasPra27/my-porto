@@ -27,8 +27,6 @@ const Hero = forwardRef((props, ref) => {
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
 
   return (
-    // let data = require("../../../profile.json");
-
     <section id="hero" ref={ref} className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img

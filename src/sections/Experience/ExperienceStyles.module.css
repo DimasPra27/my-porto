@@ -10,25 +10,25 @@
   }
 }
 
+.main {
+  margin: 30px 100px;
+}
+
 .experienceContainer {
   display: flex;
-  flex-direction: row;
-  /* align-items: center; */
-  gap: 20px;
-  margin-left: 10%;
+  /* flex-direction: row; */
+  align-items: center;
+  gap: 25px;
+  /* margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 3%;
+  margin-bottom: 3%; */
   text-align: left;
   /* border-style: solid; */
-
-  hr {
-    width: 100%;
-    height: 0.5;
-    margin-top: 0px;
-  }
+  /* justify-content: space-between; */
 
   h3 {
     margin-bottom: -20px;
+    text-align: left;
   }
 
   ul {
@@ -43,15 +43,22 @@
 .header {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  justify-content: center;
+  /* align-items: left; */
   gap: 20px;
   text-align: justify;
-  /* margin: 10px; */
+  margin: 0;
+  padding: 0;
   /* border-style: dotted; */
 }
 
 .experienceField {
   margin-bottom: 30px;
+  text-align: left;
+}
+
+.experienceField p {
+  text-align: justify;
 }
 
 .period {
@@ -64,8 +71,40 @@
   text-align: end;
 }
 
-@media (width <= 800px) {
-  .header {
+.iconGroup {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  min-width: 60px;
+  height: 60px;
+  background-color: var(--project-card-bg);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.iconGroup img {
+  width: 100%;
+  height: auto;
+  max-width: 60px;
+  object-fit: contain;
+  opacity: 0.9;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.iconGroup img:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.experienceContainer hr {
+  width: 100%;
+  height: 0.5;
+  margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+  /* .header {
     text-align: left;
   }
 
@@ -96,6 +135,63 @@
   img {
     max-width: 50px;
     width: 100px;
-    /* border-radius: 20px; */
+  } */
+
+  .period,
+  .experienceField {
+    font-size: 10px;
+  }
+
+  .experienceContainer h2,
+  h3 {
+    text-align: left;
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .main {
+    margin: 0 20px;
+  }
+
+  .experienceContainer {
+    gap: 10px;
+  }
+
+  .iconGroup {
+    min-width: 20px;
+    height: 20px;
+  }
+
+  .iconGroup img {
+    max-width: 25px;
+  }
+
+  /* .experienceList {
+    margin-left: 0;
+    padding-left: 10px;
+    border-left: none;
+    border-top: 2px solid var(--text-color-light);
+    padding-top: 15px;
+  }
+
+  .companyInfo h3 {
+    font-size: 1.1rem;
+  }
+
+  .positionHeader h4 {
+    font-size: 1rem;
+  }
+
+  .period {
+    font-size: 0.8rem;
+  } */
+}
+
+@media (max-width: 400px) {
+  .experienceField h2 {
+    font-size: 15px;
   }
 }
