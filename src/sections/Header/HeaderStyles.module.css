@@ -51,7 +51,8 @@
 
 .navList li:hover {
   color: white;
-  background-color: black;
+  background-color: #171c18;
+  border-radius: 15px;
 }
 
 .iconGroup {
@@ -134,12 +135,12 @@
 
 @media (max-width: 400px) {
   .navList li {
-    font-size: 10px;
+    font-size: 11px;
     padding: 0 8px;
   }
 
   .navContainer {
     gap: 5px;
-    padding: 3px 0;
+    padding: 4px 0;
   }
 }
